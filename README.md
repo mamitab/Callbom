@@ -1,5 +1,5 @@
 # Callbom
-pip install selenium
-driver_path = '/path/to/chromedriver'  # Buraya ChromeDriver'ın yolunu yazın
+git clone https://github.com/mamitab/callbom.git
 cd callbom
-python Callbom.py
+pip3 install -r requirements.txt
+python callbom.py
