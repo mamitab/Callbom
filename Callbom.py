@@ -8,10 +8,10 @@ import string
 phone_number = input("Lütfen telefon numaranızı girin: ")
 
 # ChromeDriver yolunu belirtin
-driver_path = 'path_to_chromedriver'  # Buraya ChromeDriver'ın yolunu yazın
+driver_path = '/path/to/chromedriver'  # Buraya ChromeDriver'ın tam dosya yolunu yazın
 
 # WebDriver'ı başlatın
-driver = webdriver.Chrome(driver_path)
+driver = webdriver.Chrome(executable_path=driver_path)
 
 # Hedef siteye gidin
 driver.get("https://www.nissan.com.tr/services/sizi-arayalim.html")
