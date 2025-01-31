@@ -1,5 +1,2 @@
-requests
-Flask
-numpy
-pandas
-selenium
+colorama==0.3.9
+requests==2.26.0
